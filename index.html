@@ -2,33 +2,75 @@
 <html>
 <meta charset="UTF-8">
 <meta name ="viewport" content="width=device-width, intial_scale=1">
+<title>My Portfolio</title>
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight">
+<script src="https://kit.fontawesome.com/4ae8292224.js" crossorigin="anonymous"></script>
 
-<body>
-    <header>
-        <img src="assets/me.jpg" alt="Photo of Khilan Kamlesh">
-        <h1 class="name">Khilan Kamlesh</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-
-    <section>
-        <h2 class="wide">Home</h2>
-        <p class="opacity">Info about me... CV</p>
-    </section>
-
-    <footer>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-github"></i></a>
-    </footer>
-</body>
+<div id="container">
+    <div class="wrapper"> 
+        <header>
+            <img src="assets/me.jpg" alt="Photo of Khilan Kamlesh">
+            <h1 class="name">Khilan Kamlesh</h1>
+            <nav class="nav__links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+    
+        <main> 
+            <div id="about" class="center">
+                <h2>About Me</h2>
+                <p>A resilient and motivated student studying BSc Computer Science at the University of Birmingham <br>
+                    looking to provide real world software solutions. Proficient in a range of programming languages <br>
+                    and software systemswith a keen mind, quick at grasping and adapting to new concepts.</p>
+            </div>
+            <div id="resume" class="center">
+                <h2>Resume</h2>
+                <embed src="/assets/CV.pdf" width="75%" height="500px" type="application/pdf"></embed>
+            </div>
+            <div id="projects">
+                <h2 style="text-align: center;">Projects</h2>
+                <section>
+                    <a href="https://github.com/khilankamlesh/khilan.uk" target="_blank" rel="noopener noreferrer">
+                        <button><h3>Project 1</h3><p>Using HTML & CSS to design my website. Future improvements: Responsive design</p></button>
+                    </a>
+                    <a href="https://github.com/khilankamlesh" target="_blank" rel="noopener noreferrer">
+                        <button><h3>Project 2</h3><p>Testing variable length. One Two Three Four Five Six Seven Eight Nine Ten Eleven Twelve Thirteen</p></button>
+                    </a>
+                    <a href="https://github.com/khilankamlesh" target="_blank" rel="noopener noreferrer">
+                        <button><h3>Project 3</h3><p>Description. Used HTML & CSS to create my portfolio website. Today is the 5th October 2022. How long will the string go</p></button>
+                    </a>
+                  </section>
+                  <section>
+                    <a href="https://github.com/khilankamlesh/khilan.uk" target="_blank" rel="noopener noreferrer">
+                        <button>Project 4</button>
+                    </a>
+                    <a href="https://github.com/khilankamlesh/khilan.uk" target="_blank" rel="noopener noreferrer">
+                        <button>Project 5</button>
+                    </a>
+                    <a href="https://github.com/khilankamlesh/khilan.uk" target="_blank" rel="noopener noreferrer">
+                        <button>Project 6</button>
+                    </a>
+                  </section>
+            </div>
+            <div id="contact">
+                <h2 class="center">Contact</h2>
+                <h3><i class="fa-solid fa-location-crosshairs fa-2xl"></i> Leicester, England</h3>
+                <p><i class="fa-solid fa-phone fa-2xl"> +447383517487</i></p>
+                <p><i class="fa-solid fa-envelope fa-2xl">   khilan05@gmail.com</i></p>
+            </div>
+        </main>
+    
+        <footer>
+            <a href="https://www.linkedin.com/in/khilan-kamlesh/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a href="https://github.com/khilankamlesh" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-github fa-2xl"></i></a>
+        </footer>
+    </div>
+</div>
 </html>
 
