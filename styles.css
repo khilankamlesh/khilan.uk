@@ -108,6 +108,18 @@ h2, h3, p {
     font-family: "Inter Tight", Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    background-image: linear-gradient(90deg, red, blue);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: background-size 500ms ease;
+}
+
+h2:hover {
+    background-size: 100% 3px;
+}
+
 #projects section {
     display:flex;
     flex-direction:row;
