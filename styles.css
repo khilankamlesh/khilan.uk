@@ -128,7 +128,7 @@ h2:hover {
     margin-top: 3rem;
 }
 
-#projects a {
+#resume a, #projects a {
     background-color: #FFF07C;
     width: 20%;
     padding:1rem;
@@ -141,22 +141,22 @@ h2:hover {
     border: solid 1px #0D1321;
 }
 
-#projects a:hover {
+#resume a:hover, #projects a:hover {
     box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
 }
 
-#projects a button {
+#resume a button, #projects a button {
     align-self:center;
     background: transparent;
     outline: none;
     border: 0;
 }
 
-#projects a button:hover {
+#resume a button:hover, #projects a button:hover {
     cursor: pointer;
 }
 
-#projects a button h2 {
+#resume a button h2, #projects a button h2 {
     font-size: 1.5rem;
 }
 
